@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
@@ -9,12 +9,12 @@ import TestimonialCardTwo from '@/components/sections/testimonial/TestimonialCar
 import PricingCardTwo from '@/components/sections/pricing/PricingCardTwo';
 import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
 import FooterSocial from '@/components/sections/footer/FooterSocial';
-import { BarChart3, Calendar, CreditCard, Gift, GraduationCap, Instagram, Linkedin, Sparkles, Star, Twitter, Users, Youtube } from "lucide-react";
+import { BarChart3, Calendar, CreditCard, Gift, GraduationCap, Instagram, Linkedin, Sparkles, Star, Twitter, Users, Youtube, Crown } from "lucide-react";
 
 export default function Home() {
   return (
     <ThemeProvider
-      defaultButtonVariant="slide-background"
+      defaultButtonVariant="text-stagger"
       defaultTextAnimation="entrance-slide"
       borderRadius="rounded"
       contentWidth="medium"
@@ -185,6 +185,26 @@ export default function Home() {
                 "Priority support",
                 "Grade tracking",
                 "Study timer"
+              ]
+            },
+            {
+              id: "premium",
+              badge: "Best Value",
+              badgeIcon: Crown,
+              price: "$19.99/month",
+              subtitle: "For power users and graduate students",
+              buttons: [
+                { text: "Start Free Trial", href: "https://app.studyflow.com/premium" },
+                { text: "Contact Sales", href: "contact" }
+              ],
+              features: [
+                "Everything in Student",
+                "Research project management",
+                "Advanced reporting",
+                "Custom integrations",
+                "Phone support",
+                "Early access features",
+                "Team management"
               ]
             }
           ]}
