@@ -235,8 +235,8 @@ export default function Home() {
 
       <div id="footer" data-section="footer">
         <FooterSocial
-          logoText="StudyFlow"
-          copyrightText="© StudyFlow, Inc. 2025. Empowering students worldwide."
+          logoText="Nigga"
+          copyrightText="© Nigga, Inc. 2025. Empowering students worldwide."
           columns={[
             {
               title: "Product",
@@ -267,10 +267,10 @@ export default function Home() {
             }
           ]}
           socialLinks={[
-            { icon: Twitter, href: "https://twitter.com/studyflow", ariaLabel: "Follow StudyFlow on Twitter" },
-            { icon: Instagram, href: "https://instagram.com/studyflow", ariaLabel: "Follow StudyFlow on Instagram" },
-            { icon: Youtube, href: "https://youtube.com/studyflow", ariaLabel: "Subscribe to StudyFlow on YouTube" },
-            { icon: Linkedin, href: "https://linkedin.com/company/studyflow", ariaLabel: "Connect with StudyFlow on LinkedIn" }
+            { icon: Twitter, href: "https://twitter.com/studyflow", ariaLabel: "Follow Nigga on Twitter" },
+            { icon: Instagram, href: "https://instagram.com/studyflow", ariaLabel: "Follow Nigga on Instagram" },
+            { icon: Youtube, href: "https://youtube.com/studyflow", ariaLabel: "Subscribe to Nigga on YouTube" },
+            { icon: Linkedin, href: "https://linkedin.com/company/studyflow", ariaLabel: "Connect with Nigga on LinkedIn" }
           ]}
         />
       </div>
