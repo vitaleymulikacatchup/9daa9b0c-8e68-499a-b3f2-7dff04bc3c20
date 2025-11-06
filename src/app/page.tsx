@@ -43,7 +43,7 @@ export default function Home() {
 
       <div id="hero" data-section="hero">
         <HeroSplit
-          title="Transform Your Study Game"
+          title="Tranrm Your Study Game"
           description="The ultimate SaaS platform designed specifically for students. Track assignments, collaborate with peers, and boost your academic performance with AI-powered insights."
           tag="For Students"
           tagIcon={GraduationCap}
